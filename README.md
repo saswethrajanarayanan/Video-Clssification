@@ -16,4 +16,8 @@ The models have ImageNet weights. Transfer Learning was used to train these mode
 real-time videos. The number of frames that need to be averaged upon is upto the user. Higher the number of frames taken into the buffer for prediction averaging, closer is
 the model's performance to deep 3D CNNs trained on video datasets for activity recognition. There are certainly areas where 3D CNNs are just the right choice for video classification.
 
+The custom dataset has not been added here. However, usesrs can download different images pertaining to an activity like cricket, online via a simple Google search.
+Images of different activities need to be put inside separate folders named after the activity. The number of neurons in the softmax layer will have to updated to be the same 
+as the number of activities that are part of your dataset.
+
 
